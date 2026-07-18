@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# keyword research inputs (regenerated per session, not needed in repo)
+Keyword Stats *.csv
+.keywordstats-*
