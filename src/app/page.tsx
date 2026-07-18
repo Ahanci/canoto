@@ -6,6 +6,7 @@ import { brands } from "@/lib/brands";
 import { CTASection } from "@/components/CTASection";
 import { Testimonials } from "@/components/Testimonials";
 import { JsonLd } from "@/components/JsonLd";
+import { BackgroundGradient } from "@/components/BackgroundGradient";
 import { aggregate } from "@/lib/reviews";
 import {
   PhoneIcon,
@@ -70,13 +71,9 @@ export default function Home() {
 
       {/* HERO */}
       <section className="relative overflow-hidden">
-        <div
-          aria-hidden
-          className="pointer-events-none absolute inset-0"
-          style={{
-            background:
-              "radial-gradient(700px 350px at 75% 10%, rgba(245,158,11,0.12), transparent 60%)",
-          }}
+        <BackgroundGradient
+          containerClassName="absolute inset-0"
+          className="opacity-90"
         />
         <div className="container-x relative grid gap-12 py-16 md:grid-cols-2 md:items-center md:py-24">
           <div>
