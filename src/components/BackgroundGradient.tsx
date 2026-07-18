@@ -30,11 +30,11 @@ export function BackgroundGradient({
         )}
         style={{
           backgroundImage: `
-            radial-gradient(70% 60% at 18% 15%, rgba(37, 99, 235, 0.32) 0%, transparent 60%),
-            radial-gradient(60% 55% at 82% 25%, rgba(245, 158, 11, 0.28) 0%, transparent 65%),
-            radial-gradient(80% 70% at 50% 95%, rgba(10, 37, 64, 0.18) 0%, transparent 60%)
+            radial-gradient(60% 55% at 15% 20%, rgba(37, 99, 235, 0.45) 0%, transparent 65%),
+            radial-gradient(55% 50% at 85% 30%, rgba(245, 158, 11, 0.40) 0%, transparent 70%),
+            radial-gradient(80% 70% at 50% 100%, rgba(10, 37, 64, 0.22) 0%, transparent 65%)
           `,
-          backgroundSize: "200% 200%",
+          backgroundSize: "180% 180%",
           backgroundPosition: "0% 50%",
         }}
       />
