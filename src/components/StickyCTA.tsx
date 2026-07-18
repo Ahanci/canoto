@@ -23,9 +23,9 @@ export function StickyCTA() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Hızlı WhatsApp mesajı gönder"
-        className="group flex items-center gap-2 rounded-full bg-[#25D366] py-3 pl-3.5 pr-4 font-semibold text-white shadow-[0_14px_30px_-10px_rgba(37,211,102,0.85)] transition hover:scale-[1.03] hover:bg-[#1ebe57]"
+        className="group flex items-center gap-2 rounded-full bg-[#25D366] py-3 pl-3.5 pr-4 font-semibold text-[#0a2540] shadow-[0_14px_30px_-10px_rgba(37,211,102,0.85)] transition hover:scale-[1.03] hover:bg-[#1ebe57] hover:text-[#0a2540]"
       >
-        <span className="grid h-9 w-9 place-items-center rounded-full bg-white/20">
+        <span className="grid h-9 w-9 place-items-center rounded-full bg-white/25">
           <WhatsAppIcon width={20} height={20} />
         </span>
         <span className="hidden text-sm sm:inline">WhatsApp</span>
