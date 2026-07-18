@@ -165,7 +165,7 @@ export default function Home() {
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {steps.map((s) => (
             <div key={s.n} className="card p-6">
-              <span className="text-2xl font-extrabold text-[var(--color-cta)]">{s.n}</span>
+              <span className="text-2xl font-extrabold text-[var(--color-cta-600)]">{s.n}</span>
               <h3 className="mt-3 font-semibold text-[var(--color-heading)]">{s.t}</h3>
               <p className="mt-1.5 text-sm text-[var(--color-muted)]">{s.d}</p>
             </div>

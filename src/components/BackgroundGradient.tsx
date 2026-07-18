@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -15,13 +14,6 @@ export function BackgroundGradient({
   containerClassName?: string;
   animate?: boolean;
 }) {
-  const variants = {
-    initial: { backgroundPosition: "0 50%" },
-    animate: {
-      backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"],
-    },
-  };
-
   return (
     <div
       className={cn(
@@ -29,17 +21,13 @@ export function BackgroundGradient({
         containerClassName,
       )}
     >
-      <motion.div
+      <div
         aria-hidden
-        initial="initial"
-        animate={animate ? "animate" : "initial"}
-        variants={variants}
-        transition={{
-          duration: 18,
-          ease: "easeInOut",
-          repeat: Infinity,
-          repeatType: "reverse",
-        }}
+        className={cn(
+          "pointer-events-none absolute inset-0 z-0 will-change-[background-position]",
+          animate ? "animate-gradient-shift" : "",
+          className,
+        )}
         style={{
           backgroundImage: `
             radial-gradient(70% 60% at 18% 15%, rgba(37, 99, 235, 0.32) 0%, transparent 60%),
@@ -47,11 +35,8 @@ export function BackgroundGradient({
             radial-gradient(80% 70% at 50% 95%, rgba(10, 37, 64, 0.18) 0%, transparent 60%)
           `,
           backgroundSize: "200% 200%",
+          backgroundPosition: "0% 50%",
         }}
-        className={cn(
-          "pointer-events-none absolute inset-0 z-0 will-change-[background-position]",
-          className,
-        )}
       />
       <div className="relative z-10">{children}</div>
     </div>

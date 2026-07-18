@@ -3,7 +3,10 @@ import { PhoneIcon, WhatsAppIcon } from "@/components/icons";
 
 export function StickyCTA() {
   return (
-    <div className="fixed bottom-5 right-4 z-50 flex flex-col items-end gap-3">
+    <aside
+      aria-label="Hızlı iletişim"
+      className="fixed bottom-5 right-4 z-50 flex flex-col items-end gap-3"
+    >
       <a
         href={telLink()}
         aria-label={`Hızlı telefon — ${site.phoneDisplay}`}
@@ -27,6 +30,6 @@ export function StickyCTA() {
         </span>
         <span className="hidden text-sm sm:inline">WhatsApp</span>
       </a>
-    </div>
+    </aside>
   );
 }

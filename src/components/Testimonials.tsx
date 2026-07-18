@@ -4,11 +4,11 @@ const featured = reviews.filter((r) => r.featured);
 
 function Stars({ value }: { value: number }) {
   return (
-    <span aria-label={`${value} / 5 yıldız`} className="inline-flex gap-0.5 text-[var(--color-cta)]">
+    <span role="img" aria-label={`${value} / 5 yıldız`} className="inline-flex gap-0.5 text-[var(--color-cta)]">
       {Array.from({ length: 5 }).map((_, i) => (
         <svg key={i} width="16" height="16" viewBox="0 0 24 24" aria-hidden>
           <path
-            fill={i < value ? "currentColor" : "rgba(0,0,0,0.12)"}
+            fill={i < value ? "currentColor" : "rgba(0,0,0,0.12)" }
             d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
           />
         </svg>
