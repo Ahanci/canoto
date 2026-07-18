@@ -142,7 +142,7 @@ export default async function MarkaPage({
 
           <aside className="lg:col-span-1">
             <div className="card sticky top-20 p-6">
-              <h2 className="text-lg font-bold text-[var(--color-heading)]">{brand.name} Arızası mı Var?</h2>
+              <h3 className="text-lg font-bold text-[var(--color-heading)]">{brand.name} Arızası mı Var?</h3>
               <p className="mt-2 text-sm text-[var(--color-muted)]">
                 Ankara&apos;da aynı gün arıza tespiti için bize ulaşın.
               </p>

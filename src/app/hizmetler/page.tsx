@@ -99,7 +99,7 @@ export default function HizmetlerPage() {
               <span className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--color-accent)]/15 text-[var(--color-accent)]">
                 <s.icon width={26} height={26} />
               </span>
-              <h2 className="mt-4 text-xl font-bold text-[var(--color-heading)]">{s.title}</h2>
+              <h3 className="mt-4 text-xl font-bold text-[var(--color-heading)]">{s.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-[var(--color-muted)]">{s.desc}</p>
               <ul className="mt-4 grid gap-2">
                 {s.points.map((p) => (

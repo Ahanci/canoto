@@ -23,11 +23,11 @@ export function CTASection({
           <h2 className="text-balance text-2xl font-bold text-[var(--color-heading)] md:text-3xl">{title}</h2>
           <p className="mx-auto mt-3 max-w-2xl text-[var(--color-muted)]">{text}</p>
           <div className="mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <a href={telLink()} className="btn btn-cta w-full sm:w-auto" aria-label={`Telefonla ara ${site.phoneDisplay}`}>
+            <a href={telLink()} className="btn btn-cta w-full sm:w-auto" aria-label={`Telefonla randevu al — ${site.phoneDisplay}`}>
               <PhoneIcon width={18} height={18} />
               {site.phoneDisplay}
             </a>
-            <a href={waLink()} target="_blank" rel="noopener noreferrer" className="btn btn-accent w-full sm:w-auto" aria-label="WhatsApp ile yaz">
+            <a href={waLink()} target="_blank" rel="noopener noreferrer" className="btn btn-accent w-full sm:w-auto" aria-label="WhatsApp üzerinden randevu al">
               <WhatsAppIcon width={18} height={18} />
               WhatsApp ile Yaz
             </a>

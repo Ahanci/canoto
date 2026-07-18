@@ -20,7 +20,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h2 className="text-sm font-semibold text-[var(--color-heading)]">Hizmetler</h2>
+          <h3 className="text-sm font-semibold text-[var(--color-heading)]">Hizmetler</h3>
           <ul className="mt-4 space-y-2 text-sm text-[var(--color-muted)]">
             {site.services.map((s) => (
               <li key={s}>
@@ -33,7 +33,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h2 className="text-sm font-semibold text-[var(--color-heading)]">Site</h2>
+          <h3 className="text-sm font-semibold text-[var(--color-heading)]">Site</h3>
           <ul className="mt-4 space-y-2 text-sm text-[var(--color-muted)]">
             <li><Link href="/markalar" className="hover:text-[var(--color-heading)]">Markalar</Link></li>
             <li><Link href="/blog" className="hover:text-[var(--color-heading)]">Blog</Link></li>
@@ -47,7 +47,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h2 className="text-sm font-semibold text-[var(--color-heading)]">İletişim</h2>
+          <h3 className="text-sm font-semibold text-[var(--color-heading)]">İletişim</h3>
           <ul className="mt-4 space-y-3 text-sm text-[var(--color-muted)]">
             <li className="flex items-center gap-2">
               <PhoneIcon width={18} height={18} className="text-[var(--color-cta)]" />
