@@ -80,9 +80,7 @@ export default function Home() {
               Tüm Mekanik ve Oto Elektrik İşleriniz İçin Doğru Adres
             </h1>
             <p className="mt-5 max-w-xl text-lg text-[var(--color-muted)]">
-              Ankara&apos;da <strong className="text-[var(--color-heading)]">bilgisayarlı arıza tespiti</strong>, oto
-              elektrik ve oto beyin tamirinde sorunu tahminle değil, aracınızın kendi verisiyle
-              çözüyoruz. Hızlı, net ve güvenilir.
+              Ankara&apos;da <strong className="text-[var(--color-heading)]">Bilgisayarlı Arıza Tespiti</strong>, Oto Elektrik, Oto Beyin Tamiri, Periyodik Bakım, Fren Balata ve Disk Değişimi, Motor Yağı ve Filtre Değişimi Dahil Tüm Mekanik ve Elektronik İşlerinizde Aracınızın Kendi Verisiyle Çözüyoruz. Hızlı, Net ve Güvenilir.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a href={telLink()} className="btn btn-accent text-base" aria-label={`Telefonla ara ${site.phoneDisplay}`}>
