@@ -152,7 +152,7 @@ export default async function MarkaPage({
                   href={`https://wa.me/${site.whatsappHref.replace(/[^0-9]/g, "")}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-accent w-full"
+                  className="btn btn-whatsapp w-full"
                 >
                   WhatsApp ile Yaz
                 </a>

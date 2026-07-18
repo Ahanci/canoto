@@ -89,7 +89,7 @@ export default function Home() {
                 <PhoneIcon width={20} height={20} />
                 Hemen Ara
               </a>
-              <a href={waLink()} target="_blank" rel="noopener noreferrer" className="btn btn-accent text-base" aria-label="WhatsApp ile yaz">
+              <a href={waLink()} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp text-base" aria-label="WhatsApp ile yaz">
                 <WhatsAppIcon width={20} height={20} />
                 WhatsApp
               </a>

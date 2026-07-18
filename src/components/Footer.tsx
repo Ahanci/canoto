@@ -54,7 +54,7 @@ export function Footer() {
               <a href={telLink()} className="hover:text-[var(--color-heading)]">{site.phoneDisplay}</a>
             </li>
             <li className="flex items-center gap-2">
-              <WhatsAppIcon width={18} height={18} className="text-[var(--color-accent)]" />
+              <WhatsAppIcon width={18} height={18} className="text-[#1ebe57]" />
               <a href={waLink()} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-heading)]">
                 WhatsApp ile yaz
               </a>

@@ -33,7 +33,7 @@ export default function IletisimPage() {
             </span>
           </a>
           <a href={waLink()} target="_blank" rel="noopener noreferrer" className="card card-hover flex items-center gap-4 p-6">
-            <span className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--color-accent)]/15 text-[var(--color-accent)]">
+            <span className="grid h-12 w-12 place-items-center rounded-xl bg-[#25D366]/15 text-[#1ebe57]">
               <WhatsAppIcon width={24} height={24} />
             </span>
             <span>

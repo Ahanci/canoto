@@ -27,7 +27,7 @@ export function CTASection({
               <PhoneIcon width={18} height={18} />
               {site.phoneDisplay}
             </a>
-            <a href={waLink()} target="_blank" rel="noopener noreferrer" className="btn btn-accent w-full sm:w-auto" aria-label="WhatsApp üzerinden randevu al">
+            <a href={waLink()} target="_blank" rel="noopener noreferrer" className="btn btn-whatsapp w-full sm:w-auto" aria-label="WhatsApp üzerinden randevu al">
               <WhatsAppIcon width={18} height={18} />
               WhatsApp ile Yaz
             </a>
