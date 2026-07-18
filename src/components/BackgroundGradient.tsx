@@ -42,9 +42,9 @@ export function BackgroundGradient({
         }}
         style={{
           backgroundImage: `
-            radial-gradient(60% 50% at 20% 20%, rgba(37, 99, 235, 0.18) 0%, transparent 60%),
-            radial-gradient(50% 50% at 80% 30%, rgba(245, 158, 11, 0.16) 0%, transparent 65%),
-            radial-gradient(70% 60% at 50% 90%, rgba(10, 37, 64, 0.10) 0%, transparent 60%)
+            radial-gradient(70% 60% at 18% 15%, rgba(37, 99, 235, 0.32) 0%, transparent 60%),
+            radial-gradient(60% 55% at 82% 25%, rgba(245, 158, 11, 0.28) 0%, transparent 65%),
+            radial-gradient(80% 70% at 50% 95%, rgba(10, 37, 64, 0.18) 0%, transparent 60%)
           `,
           backgroundSize: "200% 200%",
         }}
