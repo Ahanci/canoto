@@ -69,7 +69,7 @@ export default function Home() {
       <JsonLd data={[websiteLd, aggregateRatingLd]} />
 
       {/* HERO */}
-      <section className="relative overflow-hidden">
+      <section data-sticky-hero className="relative overflow-hidden">
         <div className="container-x relative grid gap-12 py-16 md:grid-cols-2 md:items-center md:py-24">
           <div>
             <span className="chip">

@@ -90,6 +90,12 @@ export const MenuIcon = (p: SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
+export const CloseIcon = (p: SVGProps<SVGSVGElement>) => (
+  <svg {...base(p)}>
+    <path d="M6 6l12 12M18 6L6 18" />
+  </svg>
+);
+
 export const BrakeIcon = (p: SVGProps<SVGSVGElement>) => (
   <svg {...base(p)}>
     <circle cx="12" cy="12" r="9" />
