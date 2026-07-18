@@ -31,6 +31,9 @@ export const site = {
     "Motor arıza lambası analizi",
     "Oto beyin (ECU) arıza tespiti ve tamiri",
     "Elektronik araç sistemleri arıza giderme",
+    "Periyodik (yıllık) araç bakımı",
+    "Fren balata ve disk değişimi",
+    "Motor yağı ve filtre değişimi",
   ],
 };
 

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { site } from "@/lib/site";
 import { CTASection } from "@/components/CTASection";
 import { JsonLd } from "@/components/JsonLd";
-import { ChipIcon, EngineIcon, BoltIcon, WrenchIcon, GaugeIcon, CheckIcon, ArrowRightIcon } from "@/components/icons";
+import { ChipIcon, EngineIcon, BoltIcon, WrenchIcon, GaugeIcon, CheckIcon, ArrowRightIcon, BrakeIcon, OilIcon, CalendarIcon } from "@/components/icons";
 
 export const metadata: Metadata = {
   title: "Hizmetlerimiz — Bilgisayarlı Arıza Tespiti & Oto Elektrik",
@@ -48,6 +48,24 @@ const services = [
     title: "Sensör & Performans Arızaları",
     desc: "Tekleme, güç kaybı ve yüksek yakıt tüketimi gibi performans sorunlarında sensör ve sistem verilerini analiz ederek nedeni buluruz.",
     points: ["Tekleme tespiti", "Sensör doğrulama", "Yakıt tüketimi analizi"],
+  },
+  {
+    icon: CalendarIcon,
+    title: "Periyodik (Yıllık) Bakım",
+    desc: "Aracınızın motor yağı, filtreler, buji, fren sistemi, triger/aksesuar kayışı ve sıvı seviyelerini üretici planına uygun şekilde planlı olarak değiştirir ve kontrol ederiz. Düzenli bakım, büyük arızaları önlemenin en ekonomik yoludur.",
+    points: ["Motor yağı & filtre seti", "Fren, balata ve hidrolik kontrolü", "Bilgisayarlı sağlık taraması dahil"],
+  },
+  {
+    icon: BrakeIcon,
+    title: "Fren Balata & Disk Değişimi",
+    desc: "Balata kalınlığı, disk yüzey durumu ve fren hidroliği ölçümü yapıp güvenli frenleme için aracınıza uygun OEM kalitesinde parça ile değişim uygularız. Gerekirse disk ile birlikte set halinde değişim yaparız.",
+    points: ["Ön & arka balata", "Disk ölçümü ve gerekirse değişim", "Fren hidroliği yenileme"],
+  },
+  {
+    icon: OilIcon,
+    title: "Motor Yağı & Filtre Değişimi",
+    desc: "Aracınızın üretici normuna uygun (örn. 5W-30, 5W-40) doğru yağ ve orijinal yağ, hava ve polen filtresi ile periyodik değişim yapıyor; kullanılmış yağı mevzuata uygun şekilde bertaraf ediyoruz.",
+    points: ["Doğru norm yağ seçimi", "Yağ, hava, polen filtresi", "Atık yağ bertarafı"],
   },
 ];
 

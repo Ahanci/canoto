@@ -19,6 +19,9 @@ import {
   ArrowRightIcon,
   MapPinIcon,
   ClockIcon,
+  BrakeIcon,
+  OilIcon,
+  CalendarIcon,
 } from "@/components/icons";
 
 const services = [
@@ -28,6 +31,9 @@ const services = [
   { icon: BoltIcon, title: "Oto Elektrik Arızaları", desc: "Marş, şarj, akü ve tesisat arızalarında uçtan uca çözüm." },
   { icon: WrenchIcon, title: "Marş & Çalışmama Sorunları", desc: "Marş basıyor çalışmıyor, marş basmıyor arızalarına doğru teşhis." },
   { icon: GaugeIcon, title: "Sensör & Performans", desc: "Tekleme, güç kaybı ve sensör arızalarını veriyle tespit ederiz." },
+  { icon: CalendarIcon, title: "Periyodik (Yıllık) Bakım", desc: "Motor yağı, filtreler, buji ve fren kontrolü dahil tüm kalemleri planlı bakım." },
+  { icon: BrakeIcon, title: "Fren Balata & Disk Değişimi", desc: "Balata, disk ve fren hidroliği ölçümüyle güvenli frenleme için doğru parça." },
+  { icon: OilIcon, title: "Motor Yağı & Filtre Değişimi", desc: "Doğru norm yağ, orijinal yağ/hava/polen filtresi ve atık yağ bertarafı." },
 ];
 
 const steps = [
