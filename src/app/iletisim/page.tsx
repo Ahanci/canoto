@@ -24,7 +24,7 @@ export default function IletisimPage() {
       <div className="mt-10 grid gap-6 lg:grid-cols-2">
         <div className="grid gap-4">
           <a href={telLink()} className="card card-hover flex items-center gap-4 p-6">
-            <span className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--color-cta)]/15 text-[var(--color-cta)]">
+            <span className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--color-accent)]/15 text-[var(--color-accent)]">
               <PhoneIcon width={24} height={24} />
             </span>
             <span>
@@ -33,7 +33,7 @@ export default function IletisimPage() {
             </span>
           </a>
           <a href={waLink()} target="_blank" rel="noopener noreferrer" className="card card-hover flex items-center gap-4 p-6">
-            <span className="grid h-12 w-12 place-items-center rounded-xl bg-[#25D366]/15 text-[#25D366]">
+            <span className="grid h-12 w-12 place-items-center rounded-xl bg-[var(--color-accent)]/15 text-[var(--color-accent)]">
               <WhatsAppIcon width={24} height={24} />
             </span>
             <span>

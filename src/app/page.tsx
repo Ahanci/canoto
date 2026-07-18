@@ -6,7 +6,6 @@ import { brands } from "@/lib/brands";
 import { CTASection } from "@/components/CTASection";
 import { Testimonials } from "@/components/Testimonials";
 import { JsonLd } from "@/components/JsonLd";
-import { BackgroundGradient } from "@/components/BackgroundGradient";
 import { aggregate } from "@/lib/reviews";
 import {
   PhoneIcon,
@@ -71,10 +70,6 @@ export default function Home() {
 
       {/* HERO */}
       <section className="relative overflow-hidden">
-        <BackgroundGradient
-          containerClassName="absolute inset-0"
-          className="opacity-90"
-        />
         <div className="container-x relative grid gap-12 py-16 md:grid-cols-2 md:items-center md:py-24">
           <div>
             <span className="chip">
@@ -90,7 +85,7 @@ export default function Home() {
               çözüyoruz. Hızlı, net ve güvenilir.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a href={telLink()} className="btn btn-cta text-base" aria-label={`Telefonla ara ${site.phoneDisplay}`}>
+              <a href={telLink()} className="btn btn-accent text-base" aria-label={`Telefonla ara ${site.phoneDisplay}`}>
                 <PhoneIcon width={20} height={20} />
                 Hemen Ara
               </a>

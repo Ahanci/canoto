@@ -50,11 +50,11 @@ export function Footer() {
           <h3 className="text-sm font-semibold text-[var(--color-heading)]">İletişim</h3>
           <ul className="mt-4 space-y-3 text-sm text-[var(--color-muted)]">
             <li className="flex items-center gap-2">
-              <PhoneIcon width={18} height={18} className="text-[var(--color-cta)]" />
+              <PhoneIcon width={18} height={18} className="text-[var(--color-accent)]" />
               <a href={telLink()} className="hover:text-[var(--color-heading)]">{site.phoneDisplay}</a>
             </li>
             <li className="flex items-center gap-2">
-              <WhatsAppIcon width={18} height={18} className="text-[#25D366]" />
+              <WhatsAppIcon width={18} height={18} className="text-[var(--color-accent)]" />
               <a href={waLink()} target="_blank" rel="noopener noreferrer" className="hover:text-[var(--color-heading)]">
                 WhatsApp ile yaz
               </a>

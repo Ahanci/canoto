@@ -147,7 +147,7 @@ export default async function MarkaPage({
                 Ankara&apos;da aynı gün arıza tespiti için bize ulaşın.
               </p>
               <div className="mt-5 grid gap-2">
-                <a href={`tel:${site.phoneHref}`} className="btn btn-cta w-full">Hemen Ara</a>
+                <a href={`tel:${site.phoneHref}`} className="btn btn-accent w-full">Hemen Ara</a>
                 <a
                   href={`https://wa.me/${site.whatsappHref.replace(/[^0-9]/g, "")}`}
                   target="_blank"

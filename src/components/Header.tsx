@@ -44,7 +44,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <a href={telLink()} className="btn btn-cta hidden whitespace-nowrap lg:inline-flex" aria-label={`Telefon ile ara: ${site.phoneDisplay}`}>
+          <a href={telLink()} className="btn btn-accent hidden whitespace-nowrap lg:inline-flex" aria-label={`Telefon ile ara: ${site.phoneDisplay}`}>
             <PhoneIcon width={18} height={18} />
             <span className="text-sm">Hemen Ara</span>
           </a>
